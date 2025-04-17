@@ -98,7 +98,7 @@ sudo firewall-cmd --reload
 ```
 
 ### 8. Create a MySQL User (optional):
-To create a new MySQL user with specific privileges, log into MySQL and run:
+To create a new MySQL user with specific privileges, log into MySQL and run:(must login as a root user)
 
 ```bash
 CREATE USER 'newuser'@'%' IDENTIFIED BY 'password';
